@@ -31,7 +31,6 @@ describe('the login component', () => {
     it('should display the logged in message', () => {
       expect(elMessage.textContent).toBe('Welcome, Ben Solo');
     });
-
   });
   describe('with a non-logged in user', () => {
     let componet: LoginComponent;
