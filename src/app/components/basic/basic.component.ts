@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./basic.component.css']
 })
 export class BasicComponent implements OnInit {
-
+  message = 'Hello, World';
   constructor() { }
 
   ngOnInit() {
   }
 
-}
+  changeMessage() {
+    this.message = 'Thanks!';
+  }
+} 
