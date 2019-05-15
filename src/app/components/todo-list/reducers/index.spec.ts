@@ -169,16 +169,19 @@ describe('selectors', () => {
       {
         id: '1',
         description: 'Clean Garage',
-        completed: true
+        completed: true,
+        temporary: false
       }, {
         id: '2',
         description: 'Finish Daryl\'s Deck',
-        completed: false
+        completed: false,
+        temporary: false
       },
       {
         id: 'T0',
         description: 'pizza',
-        completed: false
+        completed: false,
+        temporary: true
       }
     ]);
   });
